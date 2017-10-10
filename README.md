@@ -39,6 +39,13 @@ This is the main function of the contract:
 
 *RefundVault.sol*: The contract that will be used to store the funds of the buyers until the minimum goal of 7.5 million tokens sold have been reached.
 
+In order to use the Crowdsale.sol contract you need to do the following:
+1. Deploy the PallyCoin smart contract.
+2. Deploy the Crowdsale smart contract using the PallyCoin address in the constructor and setting the actual timestamp for the 3rd parameter instead of 0 to start the Crowdsale immediately.
+3. Set the crowdsale address in the PallyCoin contract with the function setCrowdsaleAddress()
+4. Set the tier rates of the crowdsale with the function setTierRates(),
+5. Use the contracts.
+
 # How to participate
 Everybody is welcome to participate in this bug bounty. The only requisite is that you have to
 provide a detailed explanation of how you found the vulnerability to replicate it and verify it.
@@ -50,4 +57,4 @@ Essentially a text file with these contents:
 - Your ethereum address for the reward
 
 Send an email with the contents discussed above to *merunasgrincalaitis@gmail.com* with the subject *Pally Bounty*
-and we'll contact you with the results.
+and we'll contact you with the results. Feel free to ask any questions you may have.
