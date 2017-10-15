@@ -1,4 +1,7 @@
 # Pally Bug Bounty
+
+UPDATE: The buy bounty is closed. We find some bugs and rewarded the respective users. Don't send any more submissions.
+
 This is the bug bounty repository for Pally. You can get ether for finding vulnerabilities
 in the contracts `Crowdsale.sol`, `PallyCoin.sol` and `RefundVault.sol`. The amount depends
 on the severity of the vulnerability:
